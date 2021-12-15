@@ -1,11 +1,18 @@
 # Christmas-tree
-{
+
+""You can grow your own CH.Tree by typing in Console  a number in height  from 1 to ∞ .""
+
+{ 
+
     class Program
+    
     {
+        
         static void Main(string[] args)
         {
+        
             int hight, trunk;
-
+            
             Console.WriteLine("Podaj wysokość : ");
             hight = Convert.ToInt32(Console.ReadLine());
             trunk = hight / 3;
